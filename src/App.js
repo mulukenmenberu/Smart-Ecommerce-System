@@ -1,6 +1,7 @@
 import './style/main.css'
 import './style/mobile.css'
 import './style/mid-screen.css'
+// import './style/mid.css'
 import TopBar from './pages/TopBar';
 import Footer from './pages/Footer';
 import MainBody from './pages/MainBody';

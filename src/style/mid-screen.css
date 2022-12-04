@@ -126,7 +126,7 @@
      .higlighted-products-1 > .product{
          height:30vh;
          margin: auto;
-         width: 31vh;
+         width: 100%;
          margin-top: 1rem;
      
          box-shadow: 1px 1px #000000;
@@ -159,7 +159,7 @@
      .higlighted-products-2 > .product{
          height:30vh;
          margin: auto;
-         width: 31vh;
+         width: 100%;
          margin-top: 1rem;
      
          box-shadow: 1px 1px #000000;
