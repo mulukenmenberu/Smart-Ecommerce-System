@@ -2,16 +2,18 @@
 import { useState } from 'react'
 import {FaSearch, FaShoppingCart, FaShopware, FaUserCircle } from 'react-icons/fa'
 import '../style/main.css'
+import React from 'react'
+import { Link } from 'react-router-dom'
 const TobBar = () =>{
     const[myaccount,showMyccount] = useState(false)
     const[mycart,showMyCart] = useState(false)
 
     const toggleCards =(cardname)=>{
-        if(cardname=='account'){
+        if(cardname==='account'){
             showMyccount(!myaccount)
             showMyCart(false)
 
-        }else if(cardname=='cart'){
+        }else if(cardname==='cart'){
             showMyCart(!mycart)
             showMyccount(false)
 
@@ -20,9 +22,11 @@ const TobBar = () =>{
     return (
         <>
          <div className='header-row-mobile'>
-                <div className='logo'>
-                    <FaShopware/> MeShop</div>
-     
+        
+              <div className='logo'>
+                   <FaShopware/>  <Link to="/">MeShop  </Link>
+                </div>
+
                 <div className='cart' onClick={()=>toggleCards("cart")}>
                 <FaShoppingCart/>
                 </div>
@@ -36,7 +40,8 @@ const TobBar = () =>{
         </div>
         <div className='header-row'>
                 <div className='logo'>
-                    <FaShopware/> MeShop</div>
+                <FaShopware/>  <Link to="/">MeShop  </Link>
+                </div>
                 <div className='search'><input type="text" placeholder="Search by Product Name, Supplier, Price, Supplier Location ...."></input>
                 <FaSearch className='search-icon'/>
                 </div>

@@ -1,11 +1,12 @@
 import { Button } from "@mui/material"
 import { Link } from "react-router-dom"
 import HeaderSlider from './HeaderSlider'
-import banner from '../images/banner/banner-2.jpeg'
+// import banner from '../images/banner/banner-2.jpeg'
 import product_group_1 from '../images/product_group_1/product-group-1.jpg'
-import product_group_2 from '../images/product_group_1/product_group_2.jpg'
+// import product_group_2 from '../images/product_group_1/product_group_2.jpg'
 import product_group_3 from '../images/product_group_1/watch.jpg'
 import product_group_5 from '../images/product_group_1/product-image-5.jpg'
+import React from "react"
 
 
 const MainBody = () =>{
@@ -19,7 +20,7 @@ const MainBody = () =>{
             <div className="higlighted-products-1">
                     <div className="product">
                         <div className="product-1">
-                        <img className = 'product-card-img' src={product_group_3}/>
+                        <img alt="" className = 'product-card-img' src={product_group_3}/>
 
                             {/* <img src {} className = 'product-card-img'></img> */}
                         </div>
@@ -27,19 +28,19 @@ const MainBody = () =>{
                     </div> 
                     <div className="product">
                         <div className="product-2">
-                        <img className = 'product-card-img' src={product_group_3}/>
+                        <img alt=""  className = 'product-card-img' src={product_group_3}/>
                         {/* <img src {} className = 'product-card-img'></img> */}
                         </div>
                     </div>
                     <div className="product">
                         <div className="product-3">
-                        <img className = 'product-card-img' src={product_group_3}/>
+                        <img alt=""  className = 'product-card-img' src={product_group_3}/>
                         {/* <img src {} className = 'product-card-img'></img> */}
                         </div>
                     </div>
                     <div className="product">
                         <div className="product-4">
-                        <img className = 'product-card-img' src={product_group_5}/>
+                        <img alt=""  className = 'product-card-img' src={product_group_5}/>
                         </div>
                     </div>
                     
@@ -50,29 +51,29 @@ const MainBody = () =>{
 
             <div className="higlighted-products-2">
                     <div className="product">
-                    <img className = 'product-card-img' src={product_group_1}/>
+                    <img alt=""  className = 'product-card-img' src={product_group_1}/>
                     </div>
                     <div className="product">
-                    <img className = 'product-card-img' src={product_group_1}/>
+                    <img alt=""  className = 'product-card-img' src={product_group_1}/>
                     </div>
                     <div className="product">
-                    <img className = 'product-card-img' src={product_group_1}/>
+                    <img alt=""  className = 'product-card-img' src={product_group_1}/>
                     </div>
                     <div className="product">
-                    <img className = 'product-card-img' src={product_group_1}/>
+                    <img alt=""  className = 'product-card-img' src={product_group_1}/>
                     </div>
 
                     <div className="product">
-                    <img className = 'product-card-img' src={product_group_1}/>
+                    <img alt=""  className = 'product-card-img' src={product_group_1}/>
                     </div>
                     <div className="product">
-                    <img className = 'product-card-img' src={product_group_1}/>
+                    <img alt=""  className = 'product-card-img' src={product_group_1}/>
                     </div>
                     <div className="product">
-                    <img className = 'product-card-img' src={product_group_1}/>
+                    <img alt=""  className = 'product-card-img' src={product_group_1}/>
                     </div>
                     <div className="product">
-                    <img className = 'product-card-img' src={product_group_1}/>
+                    <img alt=""  className = 'product-card-img' src={product_group_1}/>
                     </div>
             </div>
            

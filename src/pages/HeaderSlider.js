@@ -4,6 +4,7 @@ import slider_1 from '../images/slider/slider_1.jpg'
 import slider_2 from '../images/slider/slider_2.jpg'
 import slider_3 from '../images/slider/slider_3.jpg'
 import slider_4 from '../images/slider/slider_4.jpg'
+import React from "react";
 const HeaderSlider =()=>{
     const [slideIndex, setSlideIndex] = useState(0)
     const slideList = [slider_1, slider_2, slider_3, slider_4]
@@ -13,7 +14,6 @@ const HeaderSlider =()=>{
         marginTop:"17px",
         borderRadius:"10px",
         backgroundPosition: "top 50px",
-        backgroundPosition:"center",
         backgroundSize:"cover",
         backgroundImage:`url(${slideList[slideIndex]})`
 
