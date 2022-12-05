@@ -180,4 +180,62 @@
         box-shadow: #000000;  
         background-color:#ffffff;
     }
+    .register{
+        width: 50%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3rem;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 20px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    .sso{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: auto ;
+    }
+    .sso > button{
+        border-radius: 20px;
+        height:3rem;
+        width:fit-content;
+        font-size: 15px;
+        padding: auto;
+        cursor: pointer;
+    }
+    .sso .sso-icon-fb{
+        font-size: 30px;
+        color:rgb(26, 26, 155);
+        vertical-align: middle;
+    
+    }
+    .sso .sso-icon-google{
+        font-size: 30px;
+        vertical-align: middle;
+    
+    }
+    .register >input{
+        width:70%;
+        margin-top: 8px;
+        height: 30px;
+    
+    }
+    .register .signup{
+        border-radius: 20px;
+        height:3rem;
+        width:30%;
+        font-size: 15px;
+        padding: auto;
+        background-color: #002963;
+        color:white;
+        cursor: pointer;
+    }
  }

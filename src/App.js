@@ -1,7 +1,6 @@
 import './style/main.css'
 import './style/mobile.css'
 import './style/mid-screen.css'
-// import './style/mid.css'
 import TopBar from './pages/TopBar';
 import Footer from './pages/Footer';
 import MainBody from './pages/MainBody';
@@ -9,6 +8,8 @@ import TopNavBar from './pages/TopNavBar';
 import Products from './pages/Products';
 import React from 'react';
 import {Routes, Route} from 'react-router-dom'
+import Register from './pages/Register';
+import Signin from './pages/Signin';
 function App() {
   return (
     <div className="main">
@@ -29,6 +30,8 @@ function App() {
            <Route path ="/sports/:id"  element={<Products/>}/>
            <Route path ="/shoe-and-cloth/:id"  element={<Products/>}/>
            <Route path ="/kids/:id"  element={<Products/>}/>
+           <Route path ="/create-account"  element={<Register/>}/>
+           <Route path ="/signin"  element={<Signin/>}/>
             
         </Routes>
          
