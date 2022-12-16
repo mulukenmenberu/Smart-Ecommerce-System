@@ -117,7 +117,7 @@ a:link {
     padding: 1rem;
 }
 
-  .higlighted-products-1::-webkit-scrollbar {
+  /* .higlighted-products-1::-webkit-scrollbar {
     width: 10px;
     height: 10px;
   }
@@ -125,8 +125,8 @@ a:link {
     background: #002963; 
     border-radius: 10px;
     display: none;
-  }
-  .higlighted-products-2::-webkit-scrollbar {
+  } */
+  /* .higlighted-products-2::-webkit-scrollbar {
     width: 10px;
     height: 10px;
   }
@@ -134,7 +134,7 @@ a:link {
     background: #002963; 
     border-radius: 10px;
     display: none;
-  }
+  } */
 .slider{
     background: linear-gradient(#eecece, #d0d4fe);
     height: 30rem;
@@ -144,23 +144,28 @@ a:link {
     position: relative;
     padding: auto;
     display: grid;
-    grid-template-columns:  auto auto auto auto;
-    grid-column-gap: 5px;
+    grid-template-columns:  25% 25% 25% 25%;
+    grid-column-gap: 2px;
     /* margin: auto; */
     width: 100%;
     overflow-x: auto;
     white-space: nowrap;
     align-items: center;
     align-content: center;
+    overflow: hidden;
+}
+.product-card-img{
+    border-radius: 25px;
+
 }
 .higlighted-products-1 > .product{
-    height:40vh;
+    height:42vh;
     margin: auto;
-    width: 43vh;
+    width: 98%;
     box-shadow: 1px 1px #000000;
-    border-radius: 1rem;
+    border-radius: 25px;
     /* transition: all .1s ease-out; */
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
     cursor: pointer;
 }
 
@@ -180,17 +185,22 @@ a:link {
     position: relative;
     padding:auto;
     display: grid;
-    grid-template-columns:  auto auto auto auto;
-    grid-column-gap: 5px;
+    grid-template-columns:  25% 25%  25%  25% ;
+    grid-column-gap: 2px;
 
-    width: 100%;
+    max-width: 100%;
+   
+
     overflow-x: auto;
     white-space: nowrap;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
 }
 .higlighted-products-2 > .product{
-    height:35vh;
+    height:45vh;
     margin: auto;
-    width: 45vh;
+    width: 98%;
     margin-top: 1rem;
 
     box-shadow: 1px 1px #000000;
@@ -363,13 +373,13 @@ a:link {
 }
 .product-content-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
     gap: 3px;
 }
 .product-content-item{
     background-color: white;
     border-radius: 15px;
-    width: 53vh;
+    width: 100%;
     margin-top:5px;
     height: 30vh;
     cursor: pointer;
